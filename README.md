@@ -4,7 +4,7 @@ An interactive desktop application built using Python, Tkinter, PyOpenGL, and Op
 
 ## Project Overview
 
-Course: Computer Graphics & Digital Image Processing Lab
+Course:  Graphics &  Image Processing Lab
 Submitted By: Nurer Nahar (ID: 20235203011)
 Department: Department of Computer Science & Engineering
 Institution: Bangladesh University of Business and Technology (BUBT)
@@ -25,29 +25,28 @@ Institution: Bangladesh University of Business and Technology (BUBT)
 
 ## Project Structure
 
-modules/
-- basic_filters.py
-- spatial_filters.py
-- morphology.py
-- transformations_2d.py
-- graphics_2d.py
-- medical_pipeline.py
-- app_gui.py
-
-main.py (Primary execution entry point)
-final output ss.png.png
-README.md
+- main.py (Primary execution entry point)
+- modules/
+  - basic_filters.py
+  - spatial_filters.py
+  - morphology.py
+  - transformations_2d.py
+  - graphics_2d.py
+  - medical_pipeline.py
+  - app_gui.py
+- final output ss.png.png
+- README.md
 
 ## Environment Setup & Installation
 
 Ensure you have Python 3.8+ installed on your system.
 
 1. Clone the Repository:
-git clone https://github.com/NurNaharjhumur/Computer-Graphics-DIP-Toolkit.git
-cd Computer-Graphics-DIP-Toolkit
+`git clone https://github.com/NurNaharjhumur/Computer-Graphics-DIP-Toolkit.git`
+`cd Computer-Graphics-DIP-Toolkit`
 
 2. Install Required Dependencies:
-pip install opencv-python numpy matplotlib PyOpenGL PyOpenGL_accelerate
+`pip install opencv-python numpy matplotlib PyOpenGL PyOpenGL_accelerate`
 
 3. Run the Application:
-python main.py
+`python main.py`
